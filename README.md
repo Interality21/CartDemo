@@ -63,17 +63,17 @@ Make sure to add uid (unique id) of your product that is same across your platfo
 5. Click on the Products tab, all the created products would be available, here.
 6. Now Drag-n-drop and Place the product.
 
-![Interality Workflow - Step 7](https://user-images.githubusercontent.com/69627223/185727366-8d3e5f05-a753-4e0e-888c-fc721ef0b264.jpeg)
+![image](https://user-images.githubusercontent.com/69627223/185738348-3e433a16-d1ce-4887-a75e-429c3dfb6961.png)
 
 ## User flow for adding product to cart and check out.
 
-Users would be able to add to cart the product by clicking on `Add to Cart` on hovering over the product.
+Users would be able to add to cart the product by clicking on `Add to Cart` on hovering over the product.They will see the products details and click on `Add to Cart`.
 
-![Interality Workflow - Step 33](https://user-images.githubusercontent.com/69627223/185727424-a4f38626-1be4-4a12-80a9-015969e02bdc.jpeg)
+![image](https://user-images.githubusercontent.com/69627223/185738674-b67d9260-fffe-4d97-82b3-275ccb0c5528.png)
 
 On top-left cornor, there would be a cart icon from which users can checkout to the clients cart page. (Cart Page Endpoint is passed in during configuration of client application)
 
-![Interality Workflow - Step 41 (1)](https://user-images.githubusercontent.com/69627223/185727688-af5a1a89-c5ad-41a8-b31b-1c8f8d173ed2.jpeg)
+![image](https://user-images.githubusercontent.com/69627223/185738699-985bfd48-4d38-42b1-b13d-6b0807a2ca9e.png)
 
 Finally the product/s will hit the clients cart and users can continue the payment from client application itself.
 
