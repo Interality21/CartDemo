@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Cart Demo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a demo client project for using the API and configuring the application to use the cart feature. 
 
-## Available Scripts
+## Configuring client application
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Creating Product and adding it to space.
 
-### `npm test`
+1. Navigate to [Product Tab](https://interality.io/#/subadmin/products)
+2. Click on the Create button.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Interality Workflow - Step 2](https://user-images.githubusercontent.com/69627223/185727087-af3b1ac0-3fe6-422e-872d-af78359551c9.jpeg)
 
-### `npm run build`
+3. Fill in all the fields and hit submit to create your product. (Make sure to add uid (unique id) of your product that is same across your platform, it will be required to identify product at your application)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Interality Workflow - Step 3 (1)](https://user-images.githubusercontent.com/69627223/185727193-66e5658a-2192-4be0-ac5d-d360d3be0752.jpeg)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Create new space from space tab -> Create
+5. Click on the Products tab, all the created products would be available, here.
+6. Now Drag-n-drop and Place the product.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Interality Workflow - Step 7](https://user-images.githubusercontent.com/69627223/185727366-8d3e5f05-a753-4e0e-888c-fc721ef0b264.jpeg)
 
-### `npm run eject`
+## User flow for adding product to cart and check out.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Users would be able to add to cart the product by clicking on `Add to Cart` on hovering over the product.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Interality Workflow - Step 33](https://user-images.githubusercontent.com/69627223/185727424-a4f38626-1be4-4a12-80a9-015969e02bdc.jpeg)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+On top-left cornor, there would be a cart icon from which users can checkout to the clients cart page. (Cart Page Endpoint is passed in during configuration of client application)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![Interality Workflow - Step 41 (1)](https://user-images.githubusercontent.com/69627223/185727688-af5a1a89-c5ad-41a8-b31b-1c8f8d173ed2.jpeg)
 
-## Learn More
+Finally the product/s will hit the clients cart and users can continue the payment from client application itself.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Interality Workflow - Step 42 (1)](https://user-images.githubusercontent.com/69627223/185727722-d7f9ab2b-3997-4dff-9bb6-2f8408b02c5a.jpeg)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
