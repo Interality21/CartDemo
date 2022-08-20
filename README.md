@@ -75,7 +75,7 @@ On top-left cornor, there would be a cart icon from which users can checkout to 
 
 ![image](https://user-images.githubusercontent.com/69627223/185738699-985bfd48-4d38-42b1-b13d-6b0807a2ca9e.png)
 
-Finally the product/s will hit the clients cart and users can continue the payment from client application itself.
+Finally the user will be redirected to clients cart and product/s will be added to native client cart.
 
 ![Interality Workflow - Step 42 (1)](https://user-images.githubusercontent.com/69627223/185727722-d7f9ab2b-3997-4dff-9bb6-2f8408b02c5a.jpeg)
 
