@@ -49,7 +49,7 @@ const Cart = () => {
     <div>
       <h1>Cart</h1>
     {products && products.map(product => (
-     <ProductCard product={product} />
+     <ProductCard key={product._id} product={product} />
     ))}
     </div>
 
