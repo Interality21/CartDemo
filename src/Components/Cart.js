@@ -46,7 +46,7 @@ const Cart = () => {
   },[])
   
   return (
-    <div>
+    <div style={{margin: "20px"}}>
       <h1>Cart</h1>
       <div style={{display: "flex", flexDirection: "row",margin: "20px"}}>
     {products && products.map(product => (

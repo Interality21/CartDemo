@@ -3,6 +3,7 @@ import Cart from './Components/Cart';
 import Home from './Components/Home';
 import NotFound from './Components/NotFound';
 import React from 'react';
+import './App.css'
 
 function App() {
   return (
