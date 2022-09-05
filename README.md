@@ -38,7 +38,7 @@ Example
   }
     
  ```
-Reponse will be list of product objects, field will be same as entered during product creation from admin panel.
+Response will be list of product objects, field will be same as entered during product creation from admin panel.
 Use uid (unique id) that you will pass during product creation for mapping created products with your database products.
 
 Finally, Enter your Cart Endpoint from Manage Profile in [Profile Tab](https://interality.io/#/subadmin/profile). User will be redirect here with cartId query parameter, when they click checkout. Here, you will fetch products and add to your native cart. 
@@ -67,13 +67,16 @@ Make sure to add uid (unique id) of your product that is same across your platfo
 
 ## User flow for adding product to cart and check out.
 
-Users would be able to add to cart the product by clicking on `Add to Cart` on hovering over the product.They will see the products details and click on `Add to Cart`.
+Users would be able to add to cart the product by clicking on `Add to Cart` on hovering over the product.They will see the products details, click on `Add to Cart` and set quantity.
+<br />
+<img width="797" alt="image" src="https://user-images.githubusercontent.com/69627223/188439857-99b8632d-a12d-4555-9095-db356d2c337f.png">
+<br />
+<img width="797" alt="image" src="https://user-images.githubusercontent.com/69627223/188440338-7d28f579-1df3-4a31-a257-2579892675f5.png">
 
-![image](https://user-images.githubusercontent.com/69627223/185738674-b67d9260-fffe-4d97-82b3-275ccb0c5528.png)
 
 On top-left cornor, there would be a cart icon from which users can checkout to the clients cart page. (Cart Page Endpoint is passed in during configuration of client application)
-
-![image](https://user-images.githubusercontent.com/69627223/185738699-985bfd48-4d38-42b1-b13d-6b0807a2ca9e.png)
+<br />
+<img width="797" alt="image" src="https://user-images.githubusercontent.com/69627223/188440748-87a8f1c3-7bb5-4db2-982f-9a8581956508.png">
 
 Finally the user will be redirected to clients cart and product/s will be added to native client cart.
 
