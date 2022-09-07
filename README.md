@@ -84,6 +84,6 @@ On top-left cornor, there would be a cart icon from which users can checkout to 
 <img width="1279" alt="image" src="https://user-images.githubusercontent.com/69627223/188833412-2183cec6-1865-4839-abd4-d5187b30b89e.png">
 
 Finally the user will be redirected to clients cart and product/s will be added to native client cart.
-<br />
+<br /><br />
 <img width="1279" alt="image" src="https://user-images.githubusercontent.com/69627223/188834627-281018f0-6a87-476d-917f-0e20abd36497.png">
 
