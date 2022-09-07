@@ -63,24 +63,27 @@ Make sure to add uid (unique id) of your product that is same across your platfo
 5. Click on the Products tab, all the created products would be available, here.
 6. Now Drag-n-drop and Place the product.
 
-![image](https://user-images.githubusercontent.com/69627223/185738348-3e433a16-d1ce-4887-a75e-429c3dfb6961.png)
+<img width="1278" alt="image" src="https://user-images.githubusercontent.com/69627223/188830425-128960b8-256f-4a01-82f2-dade74ac8a34.png">
+
 
 ## User flow for adding product to cart and check out.
 
 Users would be able to add to cart the product by clicking on `Add to Cart` on hovering over the product.They will see the products details, click on `Add to Cart` and set quantity.
-<br />
-<img width="797" alt="image" src="https://user-images.githubusercontent.com/69627223/188439857-99b8632d-a12d-4555-9095-db356d2c337f.png">
-<br />
-<img width="797" alt="image" src="https://user-images.githubusercontent.com/69627223/188440338-7d28f579-1df3-4a31-a257-2579892675f5.png">
+<br /><br />
 
+![image](https://user-images.githubusercontent.com/69627223/188832464-4a3d05e7-b861-445e-91ef-a4254bfa0914.png)
+
+<br />
+<img width="1279" alt="image" src="https://user-images.githubusercontent.com/69627223/188833335-52588d5b-9f63-4752-af97-48f1f792287e.png">
+
+<br />
 
 On top-left cornor, there would be a cart icon from which users can checkout to the clients cart page. (Cart Page Endpoint is passed in during configuration of client application)
 <br />
-<img width="797" alt="image" src="https://user-images.githubusercontent.com/69627223/188440748-87a8f1c3-7bb5-4db2-982f-9a8581956508.png">
+
+<img width="1279" alt="image" src="https://user-images.githubusercontent.com/69627223/188833412-2183cec6-1865-4839-abd4-d5187b30b89e.png">
 
 Finally the user will be redirected to clients cart and product/s will be added to native client cart.
-
-![Interality Workflow - Step 42 (1)](https://user-images.githubusercontent.com/69627223/185727722-d7f9ab2b-3997-4dff-9bb6-2f8408b02c5a.jpeg)
-
-
+<br /><br />
+<img width="1279" alt="image" src="https://user-images.githubusercontent.com/69627223/188834627-281018f0-6a87-476d-917f-0e20abd36497.png">
 
