@@ -1,4 +1,4 @@
-# Cart Demo
+# Cart API
 
 This is a demo client project for using the API and configuring the application to use the cart feature. 
 
